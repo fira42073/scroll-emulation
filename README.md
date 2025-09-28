@@ -1,5 +1,7 @@
 A simple hack to use middle button scrolling emulation under GNOME Wayland (and other Wayland compositors that do not expose `libinput` configuration). This is tested with my GPD Pocket, whose trackpoint does not have a middle button thus cannot scroll by default (after applying this hook, I can use right button + cursor to emulate scrolling)
 
+Make sure to have `libinput-dev` or `libinput-devel` installed (depending on the distro).
+
 Simply clone this repo and run
 
 ```bash
